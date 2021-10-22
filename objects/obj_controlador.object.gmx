@@ -117,10 +117,16 @@ global.zona = "";
             <kind>1</kind>
             <string>///Siguiente nivel
 
+//**CAMBIO DE CODIGO**************
+/*El control para pasar a la siguiente room se pasó al
+objeto porttal y al objeto eneryBoss.
+**********************************************************
+*/
+
 /*Verificamos que objeto jefe no exista y que ademas
 exista el objeto portal para poder pasar al siguiente nivel*/
-if instance_number( obj_parent_jefe)&lt;1 and !instance_exists( obj_portal)
-{ room_goto_next();} 
+//if instance_number( obj_parent_jefe)&lt;1 and !instance_exists( obj_portal)
+//{ room_goto_next();} 
 
 //if keyboard_check( vk_escape)
 //{ room_goto( rom_opciones);}
@@ -147,8 +153,9 @@ if instance_number( obj_parent_jefe)&lt;1 and !instance_exists( obj_portal)
           <argument>
             <kind>1</kind>
             <string>///Desactivacion de instancias fuera de room
-//instance_deactivate_region(0,0, view_wview[0], view_hview[0],false,0);
-//instance_activate_region(0,0, view_wview[0], view_hview[0],false);
+//instance_activate_all();
+//instance_deactivate_region(0,0, view_wview[0], view_hview[0],false,false);
+//instance_activate_region(0,0, view_wview[0], view_hview[0],true);
 </string>
           </argument>
         </arguments>

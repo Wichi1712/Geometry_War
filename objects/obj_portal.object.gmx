@@ -52,7 +52,8 @@
 
 room_goto_next();
 //sound_stop_all();
-audio_stop_sound(despierto);
+//audio_stop_sound(despierto);
+audio_stop_all();
 </string>
           </argument>
         </arguments>

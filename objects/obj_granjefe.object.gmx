@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>
 //Energia total jefe
-global.saludgranjefe = 400;
+global.energyBoss = 400;
+global.nameBoss = "Big-Boss";
 
 alarm[0] = room_speed * 10;
 image_speed = 0.7;
@@ -207,7 +208,7 @@ if ( alarm[1] &gt; 0)
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludgranjefe -=5;
+global.energyBoss -=5;
 
 
 //crear punto flotante
@@ -279,7 +280,7 @@ i.String = string(Score);
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludgranjefe -=5;
+global.energyBoss -=5;
 
 
 //crear punto flotante

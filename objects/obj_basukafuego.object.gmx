@@ -54,19 +54,25 @@
 //angulo=0;
 //}
 
-//Direccion de acuerdo a angulo de jefe
-angulo = obj_jefefuego.image_angle + 90;
-
-//Distance entre jefe y basuka
-x = obj_jefefuego.x + lengthdir_x(80, angulo);
-y = obj_jefefuego.y + lengthdir_y(80, angulo);
-//angulo +=5;
-
-// rotacion de basuka
-image_angle = obj_jefefuego.image_angle;
-
-//Disparo
-instance_create( x, y, obj_bigflame);
+//Si no existe el boss se autodestruye
+if ( instance_exists(obj_parent_jefe))
+{
+    //Direccion de acuerdo a angulo de jefe
+    angulo = obj_jefefuego.image_angle + 90;
+    
+    //Distance entre jefe y basuka
+    x = obj_jefefuego.x + lengthdir_x(80, angulo);
+    y = obj_jefefuego.y + lengthdir_y(80, angulo);
+    //angulo +=5;
+    
+    // rotacion de basuka
+    image_angle = obj_jefefuego.image_angle;
+    
+    //Disparo
+    instance_create( x, y, obj_bigflame);
+}else{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

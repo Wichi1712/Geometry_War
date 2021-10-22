@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Energia total de jefe2
-global.saludjefefantasma = 200;
+global.energyBoss = 200;
+global.nameBoss = "Big-SPECTRO";
 
 
 </string>
@@ -101,12 +102,14 @@ if distance_to_object(nave2)&lt;=250
 
 
 //activador de barra de energia de jefe
+/*
 if distance_to_object (nave2) &gt;= 500
 { instance_deactivate_object( obj_barrafantasma)
 }
 else
 { instance_activate_object( obj_barrafantasma)
 }
+*/
 </string>
           </argument>
         </arguments>
@@ -139,32 +142,6 @@ else
       </action>
     </event>
     <event eventtype="4" ename="obj_parentpared">
-      <action>
-        <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_parent_movertical">
       <action>
         <libid>1</libid>
         <id>115</id>
@@ -239,7 +216,7 @@ i.String = string(Score);
           <argument>
             <kind>1</kind>
             <string>///Salud jefe2  y punto flotante
-global.saludjefefantasma -=5;
+global.energyBoss -=5;
 
 ///crear punto flotante
 //Creacion de punto flotante este funciona con obj_puntoflotante

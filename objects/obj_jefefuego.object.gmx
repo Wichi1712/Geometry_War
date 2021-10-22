@@ -37,7 +37,9 @@ instance_create ( obj_jefefuego.x, obj_jefefuego.y, obj_basukafuego2);
 
 
 //Energia total jefe
-global.saludjefefuego = 200;
+//global.saludjefefuego = 200;
+global.energyBoss = 200;
+global.nameBoss = "Big-Flame";
 </string>
           </argument>
         </arguments>
@@ -144,7 +146,8 @@ if distance_to_object( nave2)&gt;=1
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludjefefuego -=5;
+//global.saludjefefuego -=5;
+global.energyBoss -=5;
 
 
 //crear punto flotante

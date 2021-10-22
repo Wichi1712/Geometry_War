@@ -47,7 +47,7 @@ global.salud = 200;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variable de direccion y velocidad
+            <string>///Variables de direccion y velocidad
 giro =8;
 velocidad =0.5;
 velomax = 10;
@@ -76,7 +76,7 @@ speed =0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Desplazamiento, dirección, disparo
+            <string>///Desplazamiento, dirección, disparo, colisiones
 
 /*controla la velocidad del player impidiendo que siga avanzando
 cuando se deja de presionar direccion up*/
@@ -148,12 +148,13 @@ if place_meeting(x + hspeed, y + vspeed, obj_parentpared_fragil)
     move_bounce_solid(self);
     speed = 1;
 }
-
+/*
 if place_meeting(x + hspeed, y + vspeed, obj_parentParedblanda)
 {
     move_bounce_solid(self);
     speed = 1;
 }
+*/
 
 if place_meeting(x + hspeed, y + vspeed, obj_parent_jefe)
 {
@@ -167,13 +168,7 @@ if place_meeting(x + hspeed, y + vspeed, obj_bodysnake)
     speed = 0;
 }
 
-if place_meeting(x + hspeed, y + vspeed, obj_parent_movertical)
-{
-    move_bounce_solid(self);
-    speed = 3.5;
-}
-
-if place_meeting(x + hspeed, y + vspeed, obj_parent_movhorizon)
+if place_meeting(x + hspeed, y + vspeed, obj_parentSolidMove)
 {
     move_bounce_solid(self);
     speed = 3.5;

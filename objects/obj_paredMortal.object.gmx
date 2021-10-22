@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_parentpared</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="3" enumb="0">
@@ -28,11 +28,13 @@
             <string>///Crea disparo
 //if ( nave2.y = obj_paredmortal.y &amp;&amp; nave2.x &lt;= obj_paredmortal.x - 100)
 //{
-   if instance_number ( obj_balaparedmortal)&lt;=10
-     {
-         if distance_to_object( nave2)&lt;500
-          { instance_create( x, y, obj_balaparedmortal);}
-     }
+if (instance_number ( obj_balaparedmortal)&lt;=10 ){
+    if (distance_to_object( nave2) &lt; 400 ){
+        if ( distance_to_object(obj_balaparedmortal) &gt; 150){
+            instance_create( x - 65, y, obj_balaparedmortal);
+        }
+    }
+}
 //}
 </string>
           </argument>

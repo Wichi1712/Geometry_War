@@ -109,24 +109,28 @@
         <sprite>sprites\spr_paredpiedra</sprite>
         <sprite>sprites\spr_paredSpace</sprite>
         <sprite>sprites\spr_paredark</sprite>
-        <sprite>sprites\spr_paredfragil</sprite>
         <sprite>sprites\spr_pared4</sprite>
         <sprite>sprites\spr_pared5</sprite>
         <sprite>sprites\spr_paredfire</sprite>
         <sprite>sprites\spr_paredalga</sprite>
-        <sprite>sprites\spr_paredalgafragil</sprite>
-        <sprite>sprites\spr_molino</sprite>
-        <sprite>sprites\spr_movilhorizon</sprite>
-        <sprite>sprites\spr_luzhorizontal</sprite>
-        <sprite>sprites\spr_hielohorizontal</sprite>
-        <sprite>sprites\spr_movertical</sprite>
-        <sprite>sprites\spr_luzvertical</sprite>
-        <sprite>sprites\spr_hielovertical</sprite>
-        <sprite>sprites\spr_hielofragil</sprite>
-        <sprite>sprites\spr_paredfragil2</sprite>
-        <sprite>sprites\spr_pared3</sprite>
-        <sprite>sprites\spr_pared2</sprite>
         <sprite>sprites\spr_pared1</sprite>
+        <sprites name="fragil">
+          <sprite>sprites\spr_hielofragil</sprite>
+          <sprite>sprites\spr_paredfragil2</sprite>
+          <sprite>sprites\spr_paredalgafragil</sprite>
+          <sprite>sprites\spr_paredfragil</sprite>
+        </sprites>
+        <sprites name="moviles">
+          <sprite>sprites\spr_molino</sprite>
+          <sprite>sprites\spr_movilhorizon</sprite>
+          <sprite>sprites\spr_luzhorizontal</sprite>
+          <sprite>sprites\spr_hielohorizontal</sprite>
+          <sprite>sprites\spr_movertical</sprite>
+          <sprite>sprites\spr_luzvertical</sprite>
+          <sprite>sprites\spr_hielovertical</sprite>
+          <sprite>sprites\spr_pared3</sprite>
+          <sprite>sprites\spr_pared2</sprite>
+        </sprites>
       </sprites>
       <sprites name="Sprites dialogo">
         <sprite>sprites\Spr_coronel</sprite>
@@ -244,6 +248,7 @@
             <object>objects\obj_laserjefe</object>
             <object>objects\obj_barragranjefe</object>
           </objects>
+          <object>objects\o_energyBoss</object>
         </objects>
         <objects name="luminangulos">
           <object>objects\obj_cruz</object>
@@ -259,7 +264,6 @@
           <object>objects\obj_circuloestelar</object>
         </objects>
         <objects name="comunes">
-          <object>objects\obj_parentenemigo</object>
           <object>objects\obj_rombo</object>
           <object>objects\obj_estrella</object>
           <object>objects\obj_balarombo</object>
@@ -300,6 +304,8 @@
           <object>objects\obj_bala_centinela</object>
         </objects>
         <object>objects\obj_balaparedmortal</object>
+        <object>objects\obj_parentenemigo</object>
+        <object>objects\o_parentBulletEnemy</object>
       </objects>
       <objects name="Texto y admiracion">
         <object>objects\obj_textoflotante</object>
@@ -345,21 +351,14 @@
           <object>objects\obj_luzhorizontal</object>
           <object>objects\obj_pared2</object>
           <object>objects\obj_pared3</object>
-          <object>objects\obj_parent_movhorizon</object>
-          <object>objects\obj_parent_movertical</object>
           <object>objects\obj_hielovertical</object>
           <object>objects\obj_hielohorizontal</object>
           <object>objects\obj_parentSolidMove</object>
         </objects>
         <object>objects\obj_paredmortal</object>
         <objects name="Solidos">
-          <object>objects\obj_paredfire</object>
-          <object>objects\obj_pared_ice</object>
-          <object>objects\obj_paredblack</object>
           <object>objects\obj_parentpared</object>
           <object>objects\obj_pared1</object>
-          <object>objects\obj_paredalga</object>
-          <object>objects\obj_paredark</object>
           <object>objects\obj_paredfinal</object>
         </objects>
         <objects name="Fragiles">
@@ -427,10 +426,16 @@
     <room>rooms\rom_BossSpace</room>
     <room>rooms\rom_cinematica1</room>
     <room>rooms\rom_electro</room>
+    <room>rooms\rom_bossElectro</room>
     <room>rooms\rom_fire</room>
+    <room>rooms\rom_bossFire</room>
     <room>rooms\rom_ice</room>
+    <room>rooms\rom_bossIce</room>
     <room>rooms\rom_dark</room>
+    <room>rooms\rom_bossDark</room>
     <room>rooms\rom_marino</room>
+    <room>rooms\rom_bossMarino</room>
+    <room>rooms\rom_bigBoss</room>
     <room>rooms\rom_final</room>
     <room>rooms\rom_opciones</room>
     <room>rooms\rom_instrucciones</room>

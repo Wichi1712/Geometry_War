@@ -31,7 +31,8 @@ vspeed = 7;
 image_speed = 0.2;
 
 //Energia total jefe
-global.saludjefehielo = 200;
+global.energyBoss = 200;
+global.nameBoss = "Big-ICE";
 </string>
           </argument>
         </arguments>
@@ -85,15 +86,15 @@ if distance_to_object( nave2)&lt;=400
     }
 }
 
+if (global.energyBoss &lt;= 100){speed = 13;}
    
 //activador de barra de energia de jefe
+/*
 if distance_to_object (nave2) &gt;= 700
 { instance_deactivate_object( obj_barrahielo );}
 else
 { instance_activate_object( obj_barrahielo );}
-
-if (global.saludjefehielo &lt;= 100)
-{speed = 13;}
+*/
 
 </string>
           </argument>
@@ -206,7 +207,7 @@ i.String = string(Score);
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludjefehielo -=5;
+global.energyBoss -=5;
 
 
 //crear punto flotante

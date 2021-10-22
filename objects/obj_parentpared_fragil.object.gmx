@@ -25,9 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variables
+            <string>///Variables de estado y velocidad de imagen
 image_speed = 0;
 estado = 0;
+
+
+//Test of image
+/*
+if(room == rom_spacePrueba){sprite_index = spr_paredpiedra;}else
+if(room == rom_electro){sprite_index = spr_paredfragil;}else
+if(room == rom_fire){sprite_index = spr_paredfragil2;}else
+if(room == rom_ice){sprite_index = spr_hielofragil;}else
+if(room == rom_dark){sprite_index = spr_paredfragil2;}else
+if(room == rom_marino){sprite_index = spr_paredalgafragil;}
+*/
 </string>
           </argument>
         </arguments>
@@ -50,14 +61,13 @@ estado = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (estado = 0)
-{image_index = 0;}
+            <string>///Estado del objeto
+if (estado = 0){image_index = 0;}
+else
+if (estado = 1){image_index = 1;}
+else
+if (estado = 2){image_index = 2;}
 
-if (estado = 1)
-{image_index = 1;}
-
-if (estado = 2)
-{image_index = 2;}
 </string>
           </argument>
         </arguments>

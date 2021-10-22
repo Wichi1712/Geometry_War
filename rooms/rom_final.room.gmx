@@ -30,7 +30,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_final" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-30" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="bg_final" x="0" y="0" htiled="-1" vtiled="-1" hspeed="-30" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -2782,10 +2782,6 @@
     <instance objName="obj_control_energiabonus" x="160" y="64" name="inst_7B46FF76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausa" x="224" y="64" name="inst_13B96551" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="320" y="64" name="inst_739AE15E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barra_jefe1" x="736" y="96" name="inst_1647F573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barrajefefuego" x="736" y="128" name="inst_EF74D12C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barra_jefe" x="704" y="64" name="inst_94F8CB29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barrafantasma" x="672" y="64" name="inst_6F2312CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barragranjefe" x="736" y="64" name="inst_6697D281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloquefinal1" x="6848" y="928" name="inst_8D92E7E4" locked="0" code="" scaleX="0" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloquefinal1" x="6848" y="928" name="inst_2903926D" locked="0" code="" scaleX="1" scaleY="3.03174614906311" colour="4294967295" rotation="0"/>

@@ -26,7 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>///Energia total jefe1
-global.saludjefe1 = 200;
+//global.saludjefe1 = 200;
+
+//****************
+global.energyBoss = 200;
+global.nameBoss = "Space-Black";
+
 </string>
           </argument>
         </arguments>
@@ -258,7 +263,10 @@ else
           <argument>
             <kind>1</kind>
             <string>///Salud
-global.saludjefe1 -=5;
+//global.saludjefe1 -=5;
+
+//********test
+global.energyBoss -=5;
 </string>
           </argument>
         </arguments>

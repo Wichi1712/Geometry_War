@@ -28,7 +28,8 @@
             <string>///Variables de salud e imagen
 
 //Energia total jefe
-global.saludjefemarino = 200;
+global.energyBoss = 200;
+global.nameBoss = "Big-Bubble";
 
 //velocidad de fotogramas
 image_speed = 0.4;
@@ -288,7 +289,7 @@ i.String = string(Score);
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludjefemarino -=5;
+global.energyBoss -=5;
 
 
 //crear punto flotante

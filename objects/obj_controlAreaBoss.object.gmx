@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create( x, y -4, obj_pared1);
+            <string>///Crea instancias
+instance_create( x, y -4, obj_pared1);
 instance_create( x, y +4, obj_pared1);
 instance_create( x, y, obj_pared1);
 </string>

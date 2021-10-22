@@ -28,7 +28,12 @@
             <string>///creacion del cuerpo y Energia total
 
 //Energia total jefe
-global.saludjefe = 200;
+//global.saludjefe = 200;
+
+//****************
+global.energyBoss = 200;
+global.nameBoss = "Big-Snake";
+//******************************
 
 //Creacion del cuerpo
 hijos = 10;//cantidad de cuerpo
@@ -124,32 +129,6 @@ else
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_parent_movertical">
-      <action>
-        <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>4</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_balaT">
       <action>
         <libid>1</libid>
@@ -168,7 +147,10 @@ else
           <argument>
             <kind>1</kind>
             <string>///Salud jefe y punto flotante
-global.saludjefe -=5;
+//global.saludjefe -=5;
+
+//********test
+global.energyBoss -=5;
 
 
 //crear punto flotante

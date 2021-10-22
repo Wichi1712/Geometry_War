@@ -82,7 +82,7 @@ draw_text(x+10,y+6,global.saludjefe1);//Posicion de número
 
 draw_set_font(font_barra);
 draw_set_color(c_blue);//Color de texto
-draw_text(x+100,y+5,"CRN-BLACK");//Posicion de texto
+draw_text(x+100,y+5,"SPACE-BLACK");//Posicion de texto
 </string>
           </argument>
         </arguments>
