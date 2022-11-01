@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Variables de light
+/*ESTE OBJETO DEBE ESTAR INCLUIDO EN LA ROOM*/
+
 globalvar light;
 //light = surface_create( room_width, room_height);//prueba
 light = surface_create( view_wview, view_hview);

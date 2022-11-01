@@ -55,8 +55,8 @@ image_angle = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-if instance_number(obj_serpiente)=0
+            <string>///Crea serpiente y activa alarma 0
+if (instance_number(obj_serpiente)==0)
 {
    instance_create( x, y, obj_serpiente);
 }
@@ -83,8 +83,7 @@ alarm[0] = room_speed *15;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-
+            <string>///Crea enemigos - Activa alarma 3
 instance_create( x, y, random_range(obj_bola_fuego, obj_bola_nieve ))
 alarm[3] = room_speed *20;
 </string>
@@ -109,7 +108,7 @@ alarm[3] = room_speed *20;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///Activa alarma 2
 //image_angle -= 1;
 alarm[2] = room_speed *15;
 </string>
@@ -134,7 +133,7 @@ alarm[2] = room_speed *15;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///Crea enemigos - Activa alarma 1
 instance_create( x, y, random_range(obj_bola_fuego, obj_bola_nieve ))
 alarm[1] = room_speed * 15;
 </string>
@@ -159,7 +158,7 @@ alarm[1] = room_speed * 15;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>///Rotacion y creacion de disparo en 4 angulos diferentes
 //Codigo para crear rotacion y  fuego en los cuatro angulos del objeto principal
 distancia = 350;
 

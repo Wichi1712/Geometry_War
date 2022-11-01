@@ -50,20 +50,12 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="nave2" x="96" y="224" name="inst_4176B00A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="736" y="896" name="inst_86AC8C7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="352" y="864" name="inst_A451EB98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="1088" y="448" name="inst_39D725DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="480" y="352" name="inst_8D1D7BF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="2752" y="1888" name="inst_BE6145FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="2464" y="1088" name="inst_DE61F8A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="1728" y="1792" name="inst_188B6D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="1600" y="416" name="inst_CBECAD20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cruz" x="448" y="1632" name="inst_6086C7D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="800" y="1888" name="inst_82174D6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="2912" y="800" name="inst_DC413C11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="2432" y="1888" name="inst_069C084E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_hexa" x="1952" y="1984" name="inst_38198AD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredark2" x="1344" y="1312" name="inst_E46CA92A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredark2" x="1344" y="1344" name="inst_E46EBEFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredark2" x="1344" y="1376" name="inst_AAEB50CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -446,7 +438,6 @@
     <instance objName="obj_luzhorizontal" x="608" y="1792" name="inst_98B777A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_luzhorizontal" x="2048" y="544" name="inst_20AD6581" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_luzhorizontal" x="768" y="1280" name="inst_DEC6C0E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_barra" x="32" y="64" name="inst_A18938F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controlador" x="256" y="32" name="inst_E1F0ADD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pausa" x="192" y="32" name="inst_014A2E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_control_energiabonus" x="192" y="64" name="inst_A11FF267" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -474,6 +465,7 @@
     <instance objName="obj_paredark2" x="2784" y="1376" name="inst_796DFB5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_paredark2" x="2816" y="1376" name="inst_F3CE3EBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_B008866F" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
+    <instance objName="obj_hexa" x="224" y="384" name="inst_36E35021" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal" x="3456" y="128" name="inst_C20F017C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared1" x="2848" y="0" name="inst_CA6E173F" locked="0" code="" scaleX="16" scaleY="17" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared1" x="3360" y="0" name="inst_0846CB82" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
@@ -501,6 +493,8 @@
     <instance objName="obj_pared1" x="2560" y="0" name="inst_BFCBB17B" locked="0" code="" scaleX="9" scaleY="43" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared1" x="1472" y="1504" name="inst_C613B34E" locked="0" code="" scaleX="43" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_pared1" x="800" y="1504" name="inst_590BC65B" locked="0" code="" scaleX="17" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="nave2" x="64" y="256" name="inst_600DDD45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_barra" x="32" y="64" name="inst_8D50ADAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tiles_pared" x="0" y="0" w="32" h="32" xo="0" yo="32" id="10008789" name="inst_179478D0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
